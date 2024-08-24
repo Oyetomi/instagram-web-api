@@ -2,6 +2,8 @@
 
 # Logs
 .DS_Store
+.index.ts
+
 logs
 _.log
 npm-debug.log_

@@ -1,5 +1,7 @@
 # Instagram Web API
 
+![Instagram Web API Logo](https://i.imgur.com/Lw6lKFV.png)
+
 ## Project Description
 The **Instagram Web API** is a Node.js library that allows developers to interact with Instagram's web endpoints for automation and data retrieval. This API handles login, fetching user data, and managing posts, all without relying on the official mobile API or requiring the use of Selenium.
 

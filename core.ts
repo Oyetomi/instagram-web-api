@@ -21,7 +21,7 @@ async function createApiInstance(): Promise<any> {
   });
 }
 
-async function login(username: string, password: string) {
+export const login = async (username: string, password: string) => {
   const encPassword = `#PWD_INSTAGRAM_BROWSER:0:${new Date().getTime()}:${password}`;
   const loginParams = new URLSearchParams();
   loginParams.append("enc_password", encPassword);
@@ -43,4 +43,4 @@ async function login(username: string, password: string) {
   } catch (error) {
     console.error("Error during login:", error);
   }
-}
+};
